@@ -1,7 +1,14 @@
 aid: tuza
 name: Tuza
-description: 'Tuza is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Tuza is a banking automation platform that orchestrates AI agents, customers
+  and workflows to eliminate the manual processes that slow banks down. Originally launched
+  in the UK at tuza.co.uk as a card-payment fee comparison and switching service for
+  merchants, the company has repositioned as Tuza AI, delivering agentic automation for
+  banks. It is an early-stage, venture-backed fintech (backed by Northzone) building a
+  product that connects AI agents with core banking operations and customer-facing
+  workflows. As of this profile Tuza publishes a marketing and careers site only — no
+  public API, developer portal, SDKs, or documentation surface has been released yet, so
+  this record captures verified company identity plus a domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/tuza/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +16,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.tuza.ai/og-image.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Banking
+- AI Agents
+- Agentic AI
+- Automation
+- Workflow Automation
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +48,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.tuza.co.uk
+  url: https://www.tuza.ai
+- type: Support
+  url: https://www.tuza.ai/contact
+- type: DomainSecurity
+  url: security/tuza-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
