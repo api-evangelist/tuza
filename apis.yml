@@ -47,9 +47,8 @@ tags:
 - Fintech
 - Banking
 - AI Agents
-- Agentic AI
 - Automation
-- Workflow-Automation
+- Workflow Automation
 - United Kingdom
 tags_raw:
 - Company
@@ -60,6 +59,7 @@ tags_raw:
 - Automation
 - Workflow Automation
 - United Kingdom
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
